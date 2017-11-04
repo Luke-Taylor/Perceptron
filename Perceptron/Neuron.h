@@ -2,5 +2,8 @@
 
 class Neuron{
 public:
-	float activation;
+	float CalculateWeight(double prev[]);
+
+	double activation;
+
 };
