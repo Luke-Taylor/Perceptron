@@ -5,5 +5,5 @@ public:
 	float CalculateWeight(double prev[]);
 
 	double activation;
-
+	double bias;
 };
